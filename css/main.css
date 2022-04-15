@@ -11,17 +11,20 @@ header{
     transform: translate(-50%,-50%);
     text-align: center;
 }
-
+.navbar{
+    background-color: #333;
+}
 .nav-link{
-    font-family: 'press';
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 .navbar-dark .navbar-brand{
     color: #2c75ff;
     font-size: 40px;
-    font-family: 'press';
+    font-family: 'Poppins', sans-serif;
 }
 .navbar-brand{
-    font-family: 'press';
+    font-family: 'Poppins', sans-serif;
 }
 .text-area{
     font-size: 110px;
@@ -33,10 +36,10 @@ header{
     opacity: 0;
     transform: translate(0, -100px) forwards(360deg) scale(0);
     animation: animate 5s forwards;
-    font-family: 'press';
+    font-family: 'Poppins', sans-serif;
 }
 @font-face {
-    font-family: 'press';
+    font-family: 'Poppins', sans-serif;
     src: url(../css/PressStart2P-Regular.ttf)
 }
 .text-area span{
@@ -144,7 +147,7 @@ header{
     background-image: URL(../img/fondo1.jpg);
 }
 .latipografia{
-    font-family: 'press';
+    font-family: 'Poppins', sans-serif;
 }
 .personas{
     width: 300px;
