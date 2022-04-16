@@ -20,6 +20,6 @@ html {
 }
 
 @keyframes moveRight{
-    100%{transform:translateX(1730px);}
+    100%{transform:translateX(1500px);}
 }
 
