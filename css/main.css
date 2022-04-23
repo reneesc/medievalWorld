@@ -19,18 +19,7 @@ html {
     font-family:'Palatino, URW Palladio L, serif';
     color: bisque;
 }
-.ryuCSS
-{
-    
-    position: absolute;
-    margin-top: 700px;
-    left: 100px; 
-    top: 90px; 
-    height: 400px;
-    width: 250px;
-    animation: moveRight 6s linear infinite;
 
-}
 
 @keyframes moveRight{
     100%{transform:translateX(2170px);}
