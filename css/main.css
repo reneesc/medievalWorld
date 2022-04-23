@@ -203,5 +203,11 @@ html {
     width: 300px;
 }
 .GUTS{
-    
+    position: absolute;
+    bottom: 8%;
+    animation: moveRight 6s linear infinite;
+}
+
+@keyframes moveRight{
+    100%{transform:translateX(1000px)}
 }
