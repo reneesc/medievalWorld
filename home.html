@@ -20,6 +20,37 @@
 </head>
 
 <body>
+  <script>
+    function aceptarCookies() {
+      localStorage.aceptaCookies = 'true';
+      cajacookies.style.display = 'none';
+    }
+</script>
+<div id="cajacookies" class="alert text-center cookiealert" role="alert">
+    <b>Te gustan las cookies?</b> &#x1F36A; Usamos Cookies para mejorar tu experiencia en nuestra web. <a href="https://cookiesandyou.com/" target="_blank">¿Saber más?</a>
+
+    <button onclick="aceptarCookies()"  class="btn btn-primary btn-sm acceptcookies"><i class="fa fa-times"></i>
+        Aceptarlas
+    </button>
+</div>
+
+<!--====== Preloader Part Start ======-->
+<div class="preloader">
+    <div class="loader">
+        <div class="ytp-spinner">
+            <div class="ytp-spinner-container">
+                <div class="ytp-spinner-rotator">
+                    <div class="ytp-spinner-left">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                    <div class="ytp-spinner-right">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     <!--NAV-->
     <nav class="navbar navbar-expand-lg navbar-light" aria-label="Eleventh navbar example">
       <div class="container-fluid" style="background-image: url('navimg/bg.jpg');">
