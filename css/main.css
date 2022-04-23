@@ -50,7 +50,6 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     text-align: center;
 }
 .navbar{
@@ -78,57 +77,13 @@ html {
     transform: translateY(-10px);
     transition: all ease-out 0.2s;
 }
-.text-area{
-    font-size: 110px;
-    font-family: kaushan script;
-    font-weight: bold;
-}
-.text-area span{
-    color: #2c75ff;
-    opacity: 0;
-    transform: translate(0, -100px) forwards(360deg) scale(0);
-    animation: animate 5s forwards;
-    font-family: 'Poppins', sans-serif;
-}
+
+
 @font-face {
     font-family: 'Poppins', sans-serif;
     src: url(../css/PressStart2P-Regular.ttf)
 }
-.text-area span{
-    display: inline-block;
-}
-.text-area span:nth-of-type(2){
-    animation-delay: .1s;
-}
-.text-area span:nth-of-type(3){
-    animation-delay: .2s;
-}
-.text-area span:nth-of-type(4){
-    animation-delay: .3s;
-}
-@keyframes animate{
-    30%{
-        transform: translate(0, -50px) forwards(180deg) scale(1);
-    }
-    60%{
-        transform: translate(0, 20px) forwards(0deg) scale(0.8);
-    }
-    100%{
-        transform: translate(0) forwards(0deg) scale(1);
-        opacity: 1;
-    }
-}
-@media (max-width: 800px){
-    .banner-text p{
-        display: none;
-    }
-    .navbar-dark{
-        background: #333;
-    }
-    .text-area{
-        font-size: 40px;
-    }
-}
+
 #separator{
     color: white;
     width: 100%;
