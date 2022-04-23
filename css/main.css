@@ -42,16 +42,6 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
-
-}
-.navhover:hover{
-    transform: scale(1.35);
-    transition: all ease-out 0.2s;
-}
-.navhover2:hover{
-    transform: scale(1.10);
-    transition: all ease-out 0.2s;
 }
 .prueba2{
     margin-bottom: 1000px;
@@ -77,6 +67,14 @@ html {
 }
 .navbar-brand{
     font-family: 'Poppins', sans-serif;
+}
+.navhover:hover{
+    transform: scale(1.35);
+    transition: all ease-out 0.2s;
+}
+.navhover2:hover{
+    transform: scale(1.10);
+    transition: all ease-out 0.2s;
 }
 .text-area{
     font-size: 110px;
