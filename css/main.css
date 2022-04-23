@@ -46,7 +46,12 @@ html {
 
 }
 .navhover:hover{
-
+    transform: scale(1.35);
+    transition: all ease-out 0.2s;
+}
+.navhover2:hover{
+    transform: scale(1.10);
+    transition: all ease-out 0.2s;
 }
 .prueba2{
     margin-bottom: 1000px;
