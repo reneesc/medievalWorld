@@ -69,11 +69,13 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 .navhover:hover{
-    transform: scale(1.35);
+    transition: transform 125ms;
+    transform: translateY(-10px);
     transition: all ease-out 0.2s;
 }
 .navhover2:hover{
-    transform: scale(1.10);
+    transition: transform 125ms;
+    transform: translateY(-10px);
     transition: all ease-out 0.2s;
 }
 .text-area{
