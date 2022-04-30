@@ -1,46 +1,4 @@
-header{
-    background: url("IMAGES_GUTS/backscreen.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-}
-html { 
-    background: url("IMAGES_GUTS/backscreen.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-}
-#TITLES_ELD {
-    
-    font-family:'Palatino, URW Palladio L, serif';
-    color: bisque;
-}
-
-
-@keyframes moveRight{
-    100%{transform:translateX(2170px);}
-}
-
-.prueba{
-    background: url("IMAGES_GUTS/backscreen.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.prueba2{
-    margin-bottom: 1000px;
-}
-.banner-text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-}
+/*NAVBAR*/
 .navbar{
     background-color: black;
 }
@@ -67,26 +25,40 @@ html {
     transition: all ease-out 0.2s;
 }
 
+/*BACKGROUND*/
+.prueba{
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.prueba2{
+    margin-bottom: 1000px;
+}
+header{
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
 
+/*FUENTES*/
 @font-face {
     font-family: 'Poppins', sans-serif;
     src: url(../css/PressStart2P-Regular.ttf)
 }
+.latipografia{
+    font-family: 'Poppins', sans-serif;
+}
+#TITLES_ELD { 
+    font-family:'Palatino, URW Palladio L, serif';
+    color: bisque;
+}
 
-#separator{
-    color: white;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-}
-#separator .content{
-    width: 150%;
-    height: 150px;
-    margin-left: -25%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-}
+/*CARDS*/
 .card-border{
     border: solid 10px white;
     border-radius: 20px;
@@ -96,6 +68,36 @@ html {
 .card-border:hover{
     transform: scale(1.05);
 }
+.cardredactado{
+    background-color: #2c75ff;
+}
+
+/*PRODUCTOS*/
+.producto{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.producto:hover{
+    transform: scale(1.05);
+}
+.producto-name{
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/*ANIMACIONES*/
+@keyframes moveRight{
+    100%{transform:translateX(1000px)}
+}
+.GUTS{
+    position: absolute;
+    bottom: 8%;
+    animation: moveRight 6s linear infinite;
+}
+/*SEPARADORES*/
 #separator-cc{
     width: 100%;
     overflow: hidden;
@@ -110,50 +112,23 @@ html {
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
 }
-.producto{
-    cursor: pointer;
-    transition: all ease-out 0.2s;
+#separator .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
-.producto:hover{
-    transform: scale(1.05);
-}
-
-.producto-name{
-    background-color: rgba(0,0,0,0.4);
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 15px;
-}
-.btn{
-    background-color: #2c75ff;
-}
+/*FOOTER*/
 #footer{
     background: url(../img/fondo1.jpg);
     background-color:#2c75ff;
 }
-.cardredactado{
-    background-color: #2c75ff;
-}
+/*OTHERTHINGS*/
 #videosnoticias{
     align-items: center;
     align-content: center;
 }
-.fondobody{
-    background-image: URL(../img/fondo1.jpg);
-}
-.latipografia{
-    font-family: 'Poppins', sans-serif;
-}
 .personas{
     width: 300px;
-}
-.GUTS{
-    position: absolute;
-    bottom: 8%;
-    animation: moveRight 6s linear infinite;
-}
-
-@keyframes moveRight{
-    100%{transform:translateX(1000px)}
 }
