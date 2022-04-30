@@ -1,3 +1,10 @@
+/*OVERFUCK*/
+html, body 
+{ 
+ height: 100%;
+ overflow-x: hidden;
+}
+
 /*NAVBAR*/
 .navbar{
     background-color: black;
@@ -19,7 +26,7 @@
 
 /*BACKGROUND*/
 .prueba{
-    background: no-repeat center center fixed; 
+    background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,7 +65,6 @@ header{
 }
 
 /*CARDS*/
-
 .card-border{
     border: solid 10px white;
     border-radius: 20px;
@@ -88,22 +94,12 @@ header{
     border-radius: 15px;
 }
 
-/*ANIMACIONES*/
-@keyframes moveRight{
-    100%{transform:translateX(1000px)}
-}
-.GUTS{
-    position: absolute;
-    bottom: 8%;
-    animation: moveRight 6s linear infinite;
-}
-/*SEPARADORES*/
-#separator .content{
-    width: 150%;
-    height: 150px;
-    margin-left: -25%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+/*NEWSLETTER*/
+.card-border2{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
 }
 
 /*FOOTER*/
@@ -115,6 +111,26 @@ header{
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
  }
+
+/*ANIMACIONES*/
+@keyframes moveRight{
+    100%{transform:translateX(1000px)}
+}
+.GUTS{
+    position: absolute;
+    bottom: 8%;
+    animation: moveRight 6s linear infinite;
+}
+
+/*SEPARADORES*/
+#separator .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
 /*OTHERTHINGS*/
 #videosnoticias{
     align-items: center;
