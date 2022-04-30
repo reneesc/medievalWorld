@@ -97,7 +97,6 @@ header{
     z-index: 2;
 }
 #separator-cc .content{
-    background: url(../img/fondo1.jpg);
     width: 110%;
     height: 100px;
     margin-left: -5%;
