@@ -98,19 +98,6 @@ header{
     animation: moveRight 6s linear infinite;
 }
 /*SEPARADORES*/
-#separator-cc{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-}
-#separator-cc .content{
-    width: 110%;
-    height: 100px;
-    margin-left: -5%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-}
 #separator .content{
     width: 150%;
     height: 150px;
