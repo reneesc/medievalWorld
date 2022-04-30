@@ -32,9 +32,6 @@ html, body
     -o-background-size: cover;
     background-size: cover;
 }
-.prueba2{
-    margin-bottom: 1000px;
-}
 header{
     background: no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -58,6 +55,10 @@ header{
 #TITLES_BRSK { 
     font-family:'Palatino, URW Palladio L, serif';
     color: rgb(151, 42, 42);
+}
+#TITLES_ESDLA { 
+    font-family:'Palatino, URW Palladio L, serif';
+    color: rgb(230, 197, 16);
 }
 #TITLES_HOME { 
     font-family:'Palatino, URW Palladio L, serif';
