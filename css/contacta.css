@@ -1,5 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+/*NAVBAR*/
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.navhover:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    transition: all ease-out 0.2s;
+}
+.navhover2:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    transition: all ease-out 0.2s;
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
 *{
 	margin: 0;
 	padding: 0;

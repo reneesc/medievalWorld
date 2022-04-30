@@ -2,15 +2,12 @@
 <html>
 <head>
 	<title>Contacta</title>
-
 	<!--meta tags-->
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-
 	<!--Linking CSS Files -->
 	<link rel="stylesheet" type="text/css" href="css\contacta.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Home</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,19 +20,15 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 		<script src="js/bootstrap.bundle.js"></script>
 		<script src="https://kit.fontawesome.com/2a4935d0f4.js" crossorigin="anonymous"></script>
-
-
 	<!--JS CDNs-->
 	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 </head>
 <body>
 <!--NAV-->
 <nav class="navbar navbar-expand-lg navbar-light" aria-label="Eleventh navbar example">
-	<div class="container-fluid" style="background-image: url('IMAGES_ELDEN/LANDSCAPES3_ELDEN.png');">
+	<div class="container-fluid">
 		<a class="navbar-brand mr-auto navhover2" href="home.html"><img src="img/logoMW.svg"></a>
 		<button class="navbar-toggler bg-light" 
 				type="button" 
@@ -60,56 +53,56 @@
 		  </ul>
 		</div>
 	</div>
-  </nav>
-
+</nav>
+<!--FORMULARIO-->
 	<div class="row">
 		<div class="col-md-12 col-md-offset-3">
 			<form id="form">
-
 				<ul id="progressbar">
 					<li class="active">Datos Personales</li>
 					<li>Contacto</li>
-					<li>Direccion</li>
+					<li>Mensaje</li>
 				</ul>
-
 				<fieldset>
 					<h2 class="title">Datos Personales</h2>
 					<input type="text" name="FirstName" placeholder="Nombre">
 					<input type="text" name="LastName" placeholder="Apellidos">
-
 					<input type="button" name="next" class="next action-button" value="siguiente">
 				</fieldset>
 				<fieldset>
 					<h2 class="title">Contacto</h2>
 					<input type="text" name="Mobile" placeholder="Numero de Telefono">
 					<input type="text" name="Email" placeholder="Email">
-
+					<input type="text" name="Direccion" placeholder="Direccion (Calle, Ciudad y Municipio)">
 					<input type="button" name="previous" class="previous action-button-previous" value="anterior">
-
-
 					<input type="button" name="next" class="next action-button" value="siguiente">
 				</fieldset>
 				<fieldset>
-					<h2 class="title">Direccion</h2>
-					<input type="text" name="Street" placeholder="Calle o Avenida">
-					<input type="text" name="City" placeholder="Municipio">
-
+					<h2 class="title">¿Que nos quieres comentar?</h2>
+					<input type="text" name="message" placeholder="Mensaje">
 					<input type="button" name="previous" class="previous action-button-previous" value="anterior">
-
-
-					<input type="submit" name="submit" class="submit action-button" value="enviar">
+					<input type="button" name="submit" class="btn submit action-button" data-bs-toggle="modal" data-bs-target="#exampleModal" value="enviar">
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <h5 class="modal-title" id="exampleModalLabel">Medieval World</h5>
+							  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+							  ¡Gracias por contactar! Nos pondremos en contacto contigo en cuanto podamos.
+							</div>
+							<div class="modal-footer">
+							  <button type="button" class="action-button"><a href="home.html" style="color: white;">Volver al inicio</a></button>
+							</div>
+						  </div>
+						</div>
+					  </div>
 				</fieldset>
-				
 			</form>
-			
 		</div>
-		
 	</div>
-
-	
-
 	<!-- Linking JS Files -->
 	<script type="text/javascript" src="js\contacta.js"></script>
-
 </body>
 </html>

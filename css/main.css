@@ -6,14 +6,6 @@
     font-family: 'Poppins', sans-serif;
     color: white;
 }
-.navbar-dark .navbar-brand{
-    color: #2c75ff;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-}
-.navbar-brand{
-    font-family: 'Poppins', sans-serif;
-}
 .navhover:hover{
     transition: transform 125ms;
     transform: translateY(-10px);
@@ -131,4 +123,8 @@ header{
 }
 .personas{
     width: 300px;
+}
+.btn{
+    background-color: black;
+    
 }
