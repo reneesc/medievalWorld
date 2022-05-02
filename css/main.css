@@ -42,8 +42,12 @@ header{
 
 /*FUENTES*/
 @font-face {
-    font-family: 'Poppins', sans-serif;
-    src: url(../css/PressStart2P-Regular.ttf)
+    font-family: 'Rubik Wet';
+    src: url(RubikWetPaint-Regular.ttf);
+}
+@font-face {
+    font-family: 'Medieval';
+    src: url(MedievalSharp-Regular.ttf);
 }
 .latipografia{
     font-family: 'Poppins', sans-serif;
@@ -53,12 +57,14 @@ header{
     color: bisque;
 }
 #TITLES_BRSK { 
-    font-family:'Palatino, URW Palladio L, serif';
-    color: rgb(151, 42, 42);
+    font-family:'Rubik Wet';
+    color: rgb(221, 13, 13);
+    text-shadow: 5px 5px #000;
 }
 #TITLES_ESDLA { 
-    font-family:'Palatino, URW Palladio L, serif';
-    color: rgb(230, 197, 16);
+    font-family:'Medieval';
+    color: rgb(216, 199, 51);
+    text-shadow: 5px 5px #000;
 }
 #TITLES_HOME { 
     font-family:'Palatino, URW Palladio L, serif';
@@ -95,6 +101,7 @@ header{
     border-radius: 15px;
 }
 
+
 /*NEWSLETTER*/
 .card-border2{
     border: solid 10px white;
@@ -112,16 +119,6 @@ header{
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
  }
-
-/*ANIMACIONES*/
-@keyframes moveRight{
-    100%{transform:translateX(1000px)}
-}
-.GUTS{
-    position: absolute;
-    bottom: 8%;
-    animation: moveRight 6s linear infinite;
-}
 
 /*SEPARADORES*/
 #separator .content{
@@ -175,3 +172,14 @@ header{
         opacity: 1;
     }
 }
+
+/*ANIMACIONES VARIAS*/
+@keyframes moveRight{
+    100%{transform:translateX(1000px)}
+}
+.GUTS{
+    position: absolute;
+    bottom: 8%;
+    animation: moveRight 6s linear infinite;
+}
+
