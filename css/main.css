@@ -146,3 +146,32 @@ header{
 .mailto {
     color: #000;
 }
+
+/*ANIMACIONES TITULOS*/
+.text-area{
+    opacity: 0;
+    transform: translate(0, -100px) forwards(360deg) scale(0);
+    animation: animate 5s forwards;
+    text-align: center;
+}
+.text-area:nth-of-type(2){
+    animation-delay: .1s;
+}
+.text-area:nth-of-type(3){
+    animation-delay: .2s;
+}
+.text-area:nth-of-type(4){
+    animation-delay: .3s;
+}
+@keyframes animate{
+    30%{
+        transform: translate(0, -50px) forwards(180deg) scale(1);
+    }
+    60%{
+        transform: translate(0, 20px) forwards(0deg) scale(0.8);
+    }
+    100%{
+        transform: translate(0) forwards(0deg) scale(1);
+        opacity: 1;
+    }
+}
