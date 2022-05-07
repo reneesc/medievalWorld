@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Perform your AJAX/Fetch login
 
-        setFormMessage(loginForm, "error", "Invalid username/password combination");
+        setFormMessage(loginForm, "error", "El Usuario y/o Contraseña es incorrecto");
     });
 
     document.querySelectorAll(".form__input").forEach(inputElement => {
