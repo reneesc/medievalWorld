@@ -188,4 +188,57 @@ header{
     animation: moveRight 6s linear infinite;
 }
 
-/*GALLERY*/
+/*VIDEO GALLERY*/
+.video-gallery{
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.video-gallery2{
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.videocontainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+}
+.videocontainer .main-video{
+    border-radius: 5px;
+    padding:10px;
+}
+.videocontainer .main-video video{
+    width: 100%;
+    border-radius: 5px;
+}
+.videocontainer .main-video .videotitle{
+    color: white;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.videocontainer .video-list{
+    background: url(/IMAGES_GUTS/background.jpg) no-repeat center right fixed;
+    border-radius: 5px;
+    height: 520px;
+    overflow-y: scroll;
+}
+.videocontainer .video-list .vid video{
+    width: 100px;
+    border-radius: 5px;
+}
+.videocontainer .video-list::-webkit-scrollbar{
+    width: 7px;
+}
+.videocontainer .video-list::-webkit-scrollbar-track{
+    background: url(/IMAGES_GUTS/background.jpg) no-repeat center right fixed;
+    border-radius: 50px;
+}
+.videocontainer .video-list::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 50px;
+}
