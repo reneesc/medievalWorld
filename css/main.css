@@ -188,4 +188,34 @@ header{
     animation: moveRight 6s linear infinite;
 }
 
-/*GALLERY*/
+/*DISCORD BTN*/
+
+.button-join {
+    width: 90%;
+    max-width: 18.75rem;
+    height: 2.5rem;
+    font-size: 1.2em;
+    opacity: .8;
+}
+.buttondisc.is-discord {
+    color: #fff;
+    background: #5865f2;
+    border-color: transparent;
+}
+.buttondisc {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #ccc;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: calc(0.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+    font-family: Medieval2;
+    font-weight: 700;
+    text-transform: uppercase;
+}
