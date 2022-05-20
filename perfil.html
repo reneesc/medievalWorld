@@ -6,9 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apock web design</title>
     <link rel="stylesheet" type="text/css" href="css\perfil.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
+<!--NAV-->
+<nav class="navbar navbar-expand-lg navbar-light" aria-label="Eleventh navbar example">
+    <div class="container-fluid">
+        <a class="navbar-brand mr-auto navhover2" href="home.html"><img src="img/logoMW.svg"></a>
+        <button class="navbar-toggler bg-light" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toogle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item navhover"><a class="nav-link" href="home_berserk.html"><img style="margin:15px" src="navimg/berserklogo.png" width="50px"></a></li>
+                <li class="nav-item navhover"><a class="nav-link" href="home_esdla.html"><img style="margin:15px" src="navimg/esdlalogo.png" width="50px"></a></li>
+                <li class="nav-item navhover"><a class="nav-link" href="home_eldenring.html"><img style="margin:15px" src="navimg/eldenringlogo.png" width="50px"></a></li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item navhover2"><a class="nav-link" href="contacta.html"><img src="navimg/contactlogo.svg" width="80px"></a></li>
+            <li class="nav-item navhover2"><a class="nav-link" href="login.html"><img src="navimg/loginsignin_logo.svg" width="110px"></a></li>
+            <li class="nav-item navhover2"><a class="nav-link" href="perfil.html"><img src="navimg/perfil_logo.svg" width="50px"></a></li>
+          </ul>
+        </div>
+    </div>
+</nav>
 <body>
     <section class="seccion-perfil-usuario">
         <div class="perfil-usuario-header">
@@ -29,41 +58,61 @@
                 <h3 class="titulo">Gabriel Cerdeño Brooks</h3>
                 <p class="texto">Tryhard por naturaleza.
                     Amante de lagartos, voleibol, anime y Ragear por el lol.
-                </br>Ah, también me gusta el pollo :P
+                Ah, también me gusta el pollo :P
                 </p>
             </div>
             <div class="perfil-usuario-footer">
                 <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-signs"></i> Direccion de usuario:</li>
-                    <li><i class="icono fas fa-phone-alt"></i> Telefono:</li>
-                    <li><i class="icono fas fa-briefcase"></i> Trabaja en.</li>
-                    <li><i class="icono fas fa-building"></i> Cargo</li>
+                    <li><i class="icono fas fa-map-signs"></i> Dirección:</li>
+                    <li><i class="icono fas fa-phone-alt"></i> Teléfono:</li>
                 </ul>
                 <ul class="lista-datos">
-                    <li><i class="icono fas fa-map-marker-alt"></i> Ubicacion.</li>
-                    <li><i class="icono fas fa-calendar-alt"></i> Fecha nacimiento.</li>
-                    <li><i class="icono fas fa-user-check"></i> Registro.</li>
-                    <li><i class="icono fas fa-share-alt"></i> Redes sociales.</li>
+                    <li><i class="icono fas fa-map-marker-alt"></i> Interesado en:</li>
+                    <li><i class="icono fas fa-calendar-alt"></i> Fecha nacimiento:</li>
                 </ul>
             </div>
             <div class="redes-sociales">
-                <a href="" class="boton-redes facebook fab fa-facebook-f"><i class="icon-facebook"></i></a>
                 <a href="" class="boton-redes twitter fab fa-twitter"><i class="icon-twitter"></i></a>
                 <a href="" class="boton-redes instagram fab fa-instagram"><i class="icon-instagram"></i></a>
             </div>
         </div>
     </section>
 
-    <div class="mis-redes" style="display: block;position: fixed;bottom: 1rem;left: 1rem; opacity: 0.5; z-index: 1000;">
-        <p style="font-size: .75rem;">Apock graficos</p>
-        <div>
-            <a target="_blank" href="https://www.facebook.com/ApockGraficos"><i class="fab fa-facebook-square"></i></a>
-            <a target="_blank" href="https://twitter.com/ApockGraficos"><i class="fab fa-twitter"></i></a>
-            <a target="_blank" href="https://www.instagram.com/ApockGraficos"><i class="fab fa-instagram"></i></a>
-            <a target="_blank" href="https://www.youtube.com/channel/UC15DkMZQ80aoW_Rqk4n2T_w"><i class="fab fa-youtube"></i></a>
-        </div>
-    </div>
+    
     <!--====  End of tarjeta  ====-->
+    <!--SEPARADOR-->
+    <section>
+        <div id="separator">
+          <div class="content"></div>
+        </div>
+        </section>
+        <!--SEPARADOR-->
+    <section>
+        <div id="separator">
+          <div class="content"></div>
+        </div>
+        </section>
+    <!--Footer-->
+    <div id="footer" class="p-5">
+        <div class="container w-50 pt-5">
+          <div class="row row-cols-md-2 justify-content-md-center">
+            <div class="col text-center">
+            </div>
+          </div>
+          <div class="row justify-content-md-center py-5">
+            <div class="col text-center font-weight-light">
+              <p>Es necesario disponer de conexión a internet para contactar con nuestro equipo. Para más información, escíbenos a <a href="mailto:info@medievalworld.es" class="mailto"><b>info@medievalworld.es</b></a></p>
+              <p>Todos los productos se venden por separado. Para más información contacta con el vendedor. Visita pccomponentes.es para detalles específicos del producto.</p>
+              <p>© 1997 - 2022 Medieval World. Medieval World properties are trademarks of Medieval World.</p>
+            </div>
+            
+          </div>
+          <div class="row"></div>
+          <a href="contacta.html">
+            <button class="btn btn-lg rounded-pill btn-primary w-100  p-3 shadow-sm font-weight-bold">¡Contáctanos!</button>
+          </a>
+        </div>
+      </div>
     </body>
     
 </html>

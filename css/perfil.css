@@ -3,8 +3,29 @@ html {
     -ms-text-size-adjust: 100%;
     text-size-adjust: 100%;
     line-height: 1.4;
+    height: 100%;
+    overflow-x: hidden;
+    color: #404040;
+    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
 }
 
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.navhover:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    transition: all ease-out 0.2s;
+}
+.navhover2:hover{
+    transition: transform 125ms;
+    transform: translateY(-10px);
+    transition: all ease-out 0.2s;
+}
 
 * {
     margin: 0;
@@ -12,11 +33,6 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-body {
-    color: #404040;
-    font-family: "Arial", Segoe UI, Tahoma, sans-serifl, Helvetica Neue, Helvetica;
 }
 
 .seccion-perfil-usuario .perfil-usuario-body,
